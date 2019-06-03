@@ -1,8 +1,18 @@
 const path = require('path')
+const htmlWebpackPlugin = require('html-webpack-plugin')
+const {CleanWebpackPlugin} = require('clean-webpack-plugin')
+
 
 module.exports = {
   mode: 'development',
-  entry: './src/index.js',
+  // 多入口文件的输入配置,
+  devtool: 'cheap-module-eval-source-map', // 建议mode='development'时这么设置
+  devtool: 'cheap-module-source-map',// 建议mode='peoduction'时这么设置
+  devtool: 'inline-source-map',
+  entry: {
+    main: './src/index.js',
+    // sub: './src/index.js',
+  },
   module: {
     rules: [
       {
@@ -43,20 +53,18 @@ module.exports = {
           }
         ],
       },
-      {
-        test: /\.(eot|woff|ttf|svg)$/,
-        use: {
-          loader: 'file-loader',
-          options: {
-            name: '[name]_[hash].[ext]', // 设置打包出去文件的名称
-            outputPath: 'font/', // 设置打包出去文件的存放目录
-          }
-        }
-      },
     ]
   },
+  plugins: [
+    new htmlWebpackPlugin({
+      template: 'src/index.html'
+    }),
+    new CleanWebpackPlugin()
+  ],
+  // 多入口文件的输入配置,
   output: {
-    filename: 'bundle.js',
+    // publicPath: 'http://cdn.com.cn', // publicPath 设置输出资源的前置链接,当项目上线后,如果资源设置在cdn上,可以采用此操作
+    filename: '[name].js', // 这里的name就对应着entry对象里面的键名
     path: path.resolve(__dirname, 'dist')
   }
 }

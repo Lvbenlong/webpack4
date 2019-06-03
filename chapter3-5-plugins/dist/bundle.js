@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar urlEscape = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ./font/iconfont.eot?t=1559533501460 */ \"./src/font/iconfont.eot?t=1559533501460\"));\nvar ___CSS_LOADER_URL___1___ = urlEscape(__webpack_require__(/*! ./font/iconfont.eot?t=1559533501460 */ \"./src/font/iconfont.eot?t=1559533501460\") + \"#iefix\");\nvar ___CSS_LOADER_URL___2___ = urlEscape(__webpack_require__(/*! ./font/iconfont.woff?t=1559533501460 */ \"./src/font/iconfont.woff?t=1559533501460\"));\nvar ___CSS_LOADER_URL___3___ = urlEscape(__webpack_require__(/*! ./font/iconfont.ttf?t=1559533501460 */ \"./src/font/iconfont.ttf?t=1559533501460\"));\nvar ___CSS_LOADER_URL___4___ = urlEscape(__webpack_require__(/*! ./font/iconfont.svg?t=1559533501460 */ \"./src/font/iconfont.svg?t=1559533501460\") + \"#iconfont\");\n\n// Module\nexports.push([module.i, \"body .avatar {\\n  width: 100px;\\n  box-sizing: border-box;\\n  transform: translate(100px, 100px); }\\n\\n@font-face {\\n  font-family: \\\"iconfont\\\";\\n  src: url(\" + ___CSS_LOADER_URL___0___ + \");\\n  /* IE9 */\\n  src: url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"), url(\\\"data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAP4AAsAAAAACAgAAAOqAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDaINHATYCJAMMCwgABCAFhG0HPRsUB8gOJSHBwMBgZgBEPDzt9+3cmfk2b8WbKp7UmmoikQjpVxKbyCRKhU41iV7CXua0le0CsNoDLgC5AGQnsuvwKDoA+jHh637A3/zPMdOlDzC/be2SHTjA8Z7vDaz6uv2A70AOyG8Yu6AlXk6gmjEWOlte0wKuCnNZIJ5qqgSuGb3SUBq6QrtibxE74KSbnnMPALwIfj/+Q3K4krQyc+3lJ2V6KPzlK8f3HX09HgIE01nBDpGxBRTiYaX9Nj6Kb+FVVS4057YVIU0VcjgI+JqyvdF/vES0mcUDYA0mEr/AoRD84lAE1x+g7TGSr4GfWD0x9NT5sKfXseCp/KtXbd4vXrQIL1+2+tx+PeRcmks2vvrYvvl168sPlcdTPFET1WF4uTrEAxr1Du9b7t5onW169TFi/WNx6cvKK++lJa/aX39q9xh+95fvu9Dq/bP3BbujW6vX7dsV2NK2aseeNUGtKwLdV+yZtTeICANc9KFp6X40O9gDNd1v/yiwxb0tZBVaPwKtfi3e/BAUtDJsRWD2wJtXqLSrqxS52hzfiUpdM9/7bVvV3oFHd+qHpRfPqGqFjiCdQklMZ9905yLnttCiG9Mi3pZza8itFjDuNMrPF5/nHAgZGFcba8ATh4J0qZNLqzNWWmJzrNHf72qF4DB8ebcNduTlx37PT/qAOIgTa2BH/qs0A/xMiUn5Wcm1tq9vJscWVdbV10+YWyZObGj054q/nIkp+XJpaGUwH5zKxJrhawIFIZYqh7zd0BlYK2x4d7HLL4DnWmmf3mfLFdkHo/9+HOcxwO6jvIsPh8kV+SDf8XP/xuWzZ6b2++T+c/Uo4Ev4mYvQu7uiQDcn6N66I/iVowqCwkWmLhdFHtUC7swev5Y5CVXFDyyHMZ+GKyc7FxO6JhNIOqYh61pCFuwWtDQOQVvXCag2iYcb4yhelB42zAcQRhyGZMgbyEY8RBbsR2iZ8g3aRoKH6mYEnLKxEpp7CSUSI3osT8aazmpRbBNzD0ubiDreJNG0KMC3EWrXQjgpPjGfEomF0Ck22CeoyYwpWKFWMy4HVyMmkxXbqNVAdCx+kDFbdkKCUvVB8TqrGdydQREShtDDZJNhGh0rC8UbzLgXfr4JoRrPREIbeqrsbQjKThsfSxIvsQNSlFs69dzKU+wmUCVjGAWmoKzMsHJgJUxW3AqzVc8yIHSYeIMDojbZElA/pas8fnml+f0OQWVOyJEiRzHw7BprJYtqIilZicId6AAAAAA=\\\") format(\\\"woff2\\\"), url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff\\\"), url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"truetype\\\"), url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"svg\\\");\\n  /* iOS 4.1- */ }\\n\\n.iconfont {\\n  font-family: \\\"iconfont\\\" !important;\\n  font-size: 16px;\\n  font-style: normal;\\n  -webkit-font-smoothing: antialiased;\\n  -moz-osx-font-smoothing: grayscale; }\\n\\n.iconrectangle390:before {\\n  content: \\\"\\\\e600\\\"; }\\n\\n.iconicon:before {\\n  content: \\\"\\\\e602\\\"; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/index.scss?./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/src??postcss");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body .avatar {\\n  width: 100px;\\n  box-sizing: border-box;\\n  transform: translate(100px, 100px); }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/index.scss?./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/sass-loader/lib/loader.js!./node_modules/postcss-loader/src??postcss");
 
 /***/ }),
 
@@ -106,18 +106,6 @@ eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loa
 
 "use strict";
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return '@media ' + item[2] + '{' + content + '}';\n      } else {\n        return content;\n      }\n    }).join('');\n  }; // import a list of modules into the list\n\n\n  list.i = function (modules, mediaQuery) {\n    if (typeof modules === 'string') {\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    for (var i = 0; i < this.length; i++) {\n      var id = this[i][0];\n\n      if (id != null) {\n        alreadyImportedModules[id] = true;\n      }\n    }\n\n    for (i = 0; i < modules.length; i++) {\n      var item = modules[i]; // skip already imported module\n      // this implementation is not 100% perfect for weird media query combinations\n      // when a module is imported multiple times with different media queries.\n      // I hope this will never occur (Hey this way we have smaller bundles)\n\n      if (item[0] == null || !alreadyImportedModules[item[0]]) {\n        if (mediaQuery && !item[2]) {\n          item[2] = mediaQuery;\n        } else if (mediaQuery) {\n          item[2] = '(' + item[2] + ') and (' + mediaQuery + ')';\n        }\n\n        list.push(item);\n      }\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || '';\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n  return '/*# ' + data + ' */';\n}\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/api.js?");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/url-escape.js":
-/*!************************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/url-escape.js ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nmodule.exports = function escape(url, needQuotes) {\n  if (typeof url !== 'string') {\n    return url;\n  } // If url is already wrapped in quotes, remove them\n\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]/.test(url) || needQuotes) {\n    return '\"' + url.replace(/\"/g, '\\\\\"').replace(/\\n/g, '\\\\n') + '\"';\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/url-escape.js?");
 
 /***/ }),
 
@@ -154,62 +142,6 @@ eval("module.exports = __webpack_require__.p + \"images/1_229441140e4ea0d73baba1
 
 /***/ }),
 
-/***/ "./src/createAvatar.js":
-/*!*****************************!*\
-  !*** ./src/createAvatar.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return createAvata; });\n/* harmony import */ var _1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./1.jpg */ \"./src/1.jpg\");\n/* harmony import */ var _1_jpg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_1_jpg__WEBPACK_IMPORTED_MODULE_0__);\n\n\nfunction createAvata() {\n  var image = new Image()\n  image.src = _1_jpg__WEBPACK_IMPORTED_MODULE_0___default.a\n  image.classList.add('avatar')\n\n  var root = document.getElementById('root')\n  root.append(image)\n}\n\n//# sourceURL=webpack:///./src/createAvatar.js?");
-
-/***/ }),
-
-/***/ "./src/font/iconfont.eot?t=1559533501460":
-/*!***********************************************!*\
-  !*** ./src/font/iconfont.eot?t=1559533501460 ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"font/iconfont_792f34cffc8259870b7ae5ce998622ab.eot\";\n\n//# sourceURL=webpack:///./src/font/iconfont.eot?");
-
-/***/ }),
-
-/***/ "./src/font/iconfont.svg?t=1559533501460":
-/*!***********************************************!*\
-  !*** ./src/font/iconfont.svg?t=1559533501460 ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"font/iconfont_71ab2f70d32e8363d1c2e494a5f22d93.svg\";\n\n//# sourceURL=webpack:///./src/font/iconfont.svg?");
-
-/***/ }),
-
-/***/ "./src/font/iconfont.ttf?t=1559533501460":
-/*!***********************************************!*\
-  !*** ./src/font/iconfont.ttf?t=1559533501460 ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"font/iconfont_17648c5edc7359096271e221adadafa8.ttf\";\n\n//# sourceURL=webpack:///./src/font/iconfont.ttf?");
-
-/***/ }),
-
-/***/ "./src/font/iconfont.woff?t=1559533501460":
-/*!************************************************!*\
-  !*** ./src/font/iconfont.woff?t=1559533501460 ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("module.exports = __webpack_require__.p + \"font/iconfont_ce36b334e05203892baa31edbe861ca4.woff\";\n\n//# sourceURL=webpack:///./src/font/iconfont.woff?");
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -218,7 +150,7 @@ eval("module.exports = __webpack_require__.p + \"font/iconfont_ce36b334e05203892
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./1.jpg */ \"./src/1.jpg\");\n/* harmony import */ var _1_jpg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_1_jpg__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ \"./src/index.scss\");\n/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _createAvatar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./createAvatar */ \"./src/createAvatar.js\");\n\n// import './index.css'\n// import style from './index.scss' // 模块化css引入\n \n\n\nObject(_createAvatar__WEBPACK_IMPORTED_MODULE_2__[\"default\"])()\n\nvar image = new Image()\nimage.src = _1_jpg__WEBPACK_IMPORTED_MODULE_0___default.a\n// image.classList.add(style.avatar) //模块化css引入的写法\nimage.classList.add('avatar')\n\nvar root = document.getElementById('root')\nvar font = document.getElementById('font')\n\nfont.innerHTML = '<span class=\"iconfont   iconrectangle390\"></span>'\n\nroot.append(image)\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./1.jpg */ \"./src/1.jpg\");\n/* harmony import */ var _1_jpg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_1_jpg__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ \"./src/index.scss\");\n/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n \n\n\n\nvar image = new Image()\nimage.src = _1_jpg__WEBPACK_IMPORTED_MODULE_0___default.a\nimage.classList.add('avatar')\n\nvar root = document.getElementById('root')\n\nroot.append(image)\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

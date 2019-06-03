@@ -1,4 +1,9 @@
 const path = require('path')
+const htmlWebpackPlugin = require('html-webpack-plugin')
+const {CleanWebpackPlugin} = require('clean-webpack-plugin')
+// html-webpack-plugin 插件会在打包结束后自动生成一个html文件,并将打包后的文件引入进来
+// clean-webpack-plugin 插件是在执行打包命令之前删除掉之前打包的文件,然后再重新打包
+// plugin 插件 是帮助我们去处理一些操作
 
 module.exports = {
   mode: 'development',
@@ -43,18 +48,14 @@ module.exports = {
           }
         ],
       },
-      {
-        test: /\.(eot|woff|ttf|svg)$/,
-        use: {
-          loader: 'file-loader',
-          options: {
-            name: '[name]_[hash].[ext]', // 设置打包出去文件的名称
-            outputPath: 'font/', // 设置打包出去文件的存放目录
-          }
-        }
-      },
     ]
   },
+  plugins: [
+    new htmlWebpackPlugin({
+      template: 'src/index.html'
+    }),
+    new CleanWebpackPlugin()
+  ],
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
