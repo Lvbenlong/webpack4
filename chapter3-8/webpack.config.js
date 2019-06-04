@@ -1,17 +1,14 @@
 const path = require('path')
 const htmlWebpackPlugin = require('html-webpack-plugin')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
-
+const webpack = require('webpack')
 
 module.exports = {
   mode: 'development',
-  // 多入口文件的输入配置,
   devtool: 'cheap-module-eval-source-map', // 建议mode='development'时这么设置
-  // devtool: 'cheap-module-source-map',// 建议mode='peoduction'时这么设置
   devtool: 'inline-source-map',
   entry: {
     main: './src/index.js',
-    // sub: './src/index.js',
   },
   module: {
     rules: [
@@ -59,12 +56,19 @@ module.exports = {
     new htmlWebpackPlugin({
       template: 'src/index.html'
     }),
-    new CleanWebpackPlugin()
+    new CleanWebpackPlugin(),
+    new webpack.HotModuleReplacementPlugin()
   ],
   // 多入口文件的输入配置,
   output: {
-    // publicPath: 'http://cdn.com.cn', // publicPath 设置输出资源的前置链接,当项目上线后,如果资源设置在cdn上,可以采用此操作
     filename: '[name].js', // 这里的name就对应着entry对象里面的键名
     path: path.resolve(__dirname, 'dist')
+  },
+  devServer: {
+    contentBase: './dist',
+    open: true, // 自动打开浏览器
+    port: 8080, // 端口号
+    hot: true,
+    hotOnly: true,
   }
 }

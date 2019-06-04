@@ -10,4 +10,3 @@ image.classList.add('avatar')
 var root = document.getElementById('root')
 
 root.append(image)
-
